@@ -161,8 +161,127 @@ FOOTER
 ----------------------------*/
 
 footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100vw;
   height: 100px;
-  background-color: darkcyan;
+  background-color: #1E1E1E;
+  color: #5E5E5E;
+  padding: 15px;
   float: left;
+}
+
+/* left */
+
+.left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.album-cover img{
+  width: 50px;
+}
+
+.album-info .title, .album-info .track{
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.album-info .title{
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.album-info .track{
+  font-size: 10px;
+}
+
+.like, .save{
+  display: inline-block;
+  margin: 5px;
+}
+
+/* center */
+
+.center{
+  width: 60%;
+}
+
+.center .top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.center .top i{
+  margin: 0 10px;
+}
+
+.center .top .fa-play-circle{
+  font-size: 30px;
+  margin: 0 20px;
+}
+
+.center .bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-count, .end-count{
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.start-count{
+  margin-right: 20px;
+}
+
+.end-count{
+  margin-left: 20px;
+}
+
+.center .bottom .trackline-back{
+  height: 5px;
+  width: 400px;
+  background-color: #5E5E5E;
+  border-radius: 5px;
+}
+
+.center .bottom .trackline-front{
+  height: 5px;
+  width: 100px;
+  background-color: #A3A3A3;
+  border-radius: 5px;
+}
+
+/* right */
+
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right i{
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.right .trackline-back{
+  height: 5px;
+  width: 100px;
+  background-color: #5E5E5E;
+  border-radius: 5px;
+}
+
+.right .trackline-front{
+  height: 5px;
+  width: 20px;
+  background-color: #A3A3A3;
+  border-radius: 5px;
 }
