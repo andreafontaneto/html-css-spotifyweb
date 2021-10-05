@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
 .clearfix{
   content: '';
   display: table;
@@ -17,8 +22,100 @@ NAV
 nav{
   width: 200px;
   height: calc(100vh - 100px);
-  background-color: tomato;
+  background-color: #000000;
   float: left;
+  padding: 15px 15px 0 15px;
+  color: #5E5E5E;
+  font-size: 12px;
+}
+
+.logo{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.logo > img{
+  height: 40px;
+}
+
+/* nav top */
+
+.nav-top{
+  margin-bottom: 20px;
+}
+
+.nav-icon{
+  width: 30px;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.nav-item .nav-icon, .nav-item span{
+  /* da rivedere il colore delle icone */
+  margin-bottom: 10px;
+}
+
+/* nav center */
+
+.nav-center{
+  height: 430px; /* da rivedere l'altezza nav-center */
+}
+
+.nav-center h4{
+  margin-bottom: 10px;
+}
+
+.playlist-new{
+  margin-bottom: 15px;
+}
+
+.playlist-new .fa-plus{
+  color: black;
+  background-color: #5E5E5E;
+  padding: 10px;
+  margin: 5px;
+}
+
+.playlist-name{
+  overflow: auto;  /* da rivedere overflow */
+}
+
+.playlist-name p{
+  margin-bottom: 20px;
+}
+
+/* nav bottom */
+
+.nav-bottom{
+  height: 10%;
+}
+
+.download, .profile{
+  padding: 5px 0;
+}
+
+.download{
+  border-bottom: 1px solid #5E5E5E;
+}
+
+#download-icon{
+  width: 15px;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+#profile-icon{
+  width: 25px;
+  vertical-align: middle;
+  background-color: #5E5E5E;
+  border-radius: 50%;
+  padding: 2px;
+  margin: 5px;
+}
+
+.profile span{
+  color: #ffffff;
+  font-size: 14px;
 }
 
 /*----------------------------
@@ -36,6 +133,7 @@ header{
   position: fixed;
   top: 0;
   right: 0;
+  padding: 0 15px;
 }
 
 header button{
