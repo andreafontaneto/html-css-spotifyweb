@@ -3,3 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*----------------------------
+NAV
+----------------------------*/
+
+nav{
+  width: 200px;
+  height: calc(100vh - 100px);
+  background-color: tomato;
+  float: left;
+}
+
+/*----------------------------
+HEADER
+----------------------------*/
+
+header{
+  width: calc(100vw - 200px);
+  height: 100px;
+  background-color: teal;
+  float: left;
+}
+
+/*----------------------------
+MAIN
+----------------------------*/
+
+main{
+  width: calc(100vw - 200px);
+  height: calc(100vh - 100px - 100px);
+  background-color: cornflowerblue;
+  float: left;
+}
+
+/*----------------------------
+FOOTER
+----------------------------*/
+
+footer{
+  width: 100vw;
+  height: 100px;
+  background-color: darkcyan;
+  float: left;
+}
