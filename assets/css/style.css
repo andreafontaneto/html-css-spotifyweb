@@ -26,10 +26,25 @@ HEADER
 ----------------------------*/
 
 header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   width: calc(100vw - 200px);
   height: 100px;
-  background-color: teal;
+  background-color: rgba(0, 0, 0, 0.5);
   float: left;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+header button{
+  font-weight: 700;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 12px 35px;
 }
 
 /*----------------------------
@@ -38,8 +53,8 @@ MAIN
 
 main{
   width: calc(100vw - 200px);
-  height: calc(100vh - 100px - 100px);
-  background-color: cornflowerblue;
+  height: calc(100vh - 100px);
+  background-color: #10131A;
   float: left;
 }
 
