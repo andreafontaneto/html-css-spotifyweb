@@ -245,6 +245,7 @@ main{
 }
 
 .album-box, .artist-box{
+  /* width: calc((100% / 6) - 20px); */
   width: 250px;
   margin: 0 10px 20px 10px;
 }
@@ -496,3 +497,34 @@ footer{
   top: -5px;
   left: 10px;
 }
+
+
+/*=============================================================
+MEDIA QUERY
+=============================================================*/
+
+/*----------------------------
+MD BREAKPOINT
+----------------------------*/
+@media screen and (max-width: 1200px) and (min-width:768px){
+
+  .album-section, .artist-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .album-box, .artist-box{
+    width: calc((100% / 4) - 20px);
+  }
+
+}
+
+/*----------------------------
+S BREAKPOINT
+----------------------------*/
+
+/*----------------------------
+XS BREAKPOINT
+----------------------------*/
