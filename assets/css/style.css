@@ -159,6 +159,12 @@ header button{
   padding: 12px 35px;
 }
 
+header button:hover{
+  font-size: 16px;
+  padding: 13px 36px;
+  cursor: pointer;
+}
+
 /*----------------------------
 MAIN
 ----------------------------*/
