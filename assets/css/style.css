@@ -506,7 +506,7 @@ MEDIA QUERY
 /*----------------------------
 MD BREAKPOINT
 ----------------------------*/
-@media screen and (max-width: 1200px) and (min-width:768px){
+@media screen and (max-width: 1200px) and (min-width: 768px){
 
   .album-box, .artist-box{
     width: calc((100% / 4) - 20px);
@@ -517,6 +517,13 @@ MD BREAKPOINT
 /*----------------------------
 S BREAKPOINT
 ----------------------------*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+
+  .album-box, .artist-box{
+    width: calc((100% / 2) - 20px);
+  }
+
+}
 
 /*----------------------------
 XS BREAKPOINT
