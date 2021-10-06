@@ -29,9 +29,10 @@ nav{
   height: calc(100% - 100px);
   background-color: #000000;
   float: left;
-  padding: 15px 15px 0 15px;
-  color: #5E5E5E;
   font-size: 12px;
+  color: #5E5E5E;
+  padding: 15px 15px 0 15px;
+  overflow: hidden;
 }
 
 .logo{
@@ -63,7 +64,13 @@ nav{
 /* nav center */
 
 .nav-center{
-  height: 430px; /* da rivedere l'altezza nav-center */
+  height: calc(100% - 83px - 155px - 80px);
+  /*
+  83px = 43px height div.logo + 40px margin-bottom
+  155px = 135px height div.nav-top +  20px margin-bottom
+  80px = height div.nav-bottom
+  */
+  min-height: 320px;
 }
 
 .nav-center h4{
@@ -82,6 +89,7 @@ nav{
 }
 
 .playlist-name{
+  min-height: 200px;
   overflow: auto;  /* da rivedere overflow */
 }
 
@@ -92,7 +100,8 @@ nav{
 /* nav bottom */
 
 .nav-bottom{
-  height: 10%;
+  height: 80px;
+  background-color: #000000;
 }
 
 .download, .profile{
@@ -206,8 +215,8 @@ main{
 }
 
 .album-box, .artist-box{
-  width: 200px;
-  margin: 0 10px;
+  width: 250px;
+  margin: 0 10px 20px 10px;
 }
 
 .album-box img, .artist-box img{
