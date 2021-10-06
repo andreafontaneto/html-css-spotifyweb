@@ -205,6 +205,7 @@ main{
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .label ul li{
@@ -245,8 +246,7 @@ main{
 }
 
 .album-box, .artist-box{
-  /* width: calc((100% / 6) - 20px); */
-  width: 250px;
+  width: calc((100% / 6) - 20px);
   margin: 0 10px 20px 10px;
 }
 
@@ -507,13 +507,6 @@ MEDIA QUERY
 MD BREAKPOINT
 ----------------------------*/
 @media screen and (max-width: 1200px) and (min-width:768px){
-
-  .album-section, .artist-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
 
   .album-box, .artist-box{
     width: calc((100% / 4) - 20px);
