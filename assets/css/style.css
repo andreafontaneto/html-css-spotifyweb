@@ -44,6 +44,11 @@ nav{
   height: 40px;
 }
 
+nav span:hover, nav p:hover{
+  color: #ffffff;
+  cursor: pointer;
+}
+
 /* nav top */
 
 .nav-top{
@@ -61,6 +66,14 @@ nav{
   margin-bottom: 10px;
 }
 
+.active{
+  color: #ffffff;
+  border-left: 3px solid limegreen;
+  position: relative;
+  top: 0;
+  left: -5px;
+}
+
 /* nav center */
 
 .nav-center{
@@ -75,6 +88,7 @@ nav{
 
 .nav-center h4{
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .playlist-new{
@@ -86,6 +100,11 @@ nav{
   background-color: #5E5E5E;
   padding: 10px;
   margin: 5px;
+}
+
+.playlist-new .fa-plus:hover{
+  background-color: #ffffff;
+  cursor: pointer;
 }
 
 .playlist-name{
