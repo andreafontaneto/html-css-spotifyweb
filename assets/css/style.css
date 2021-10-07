@@ -733,3 +733,29 @@ XS BREAKPOINT
   }
 
 }
+
+/*----------------------------
+PLAYER BREAKPOINT
+----------------------------*/
+@media screen and (max-height: 220px){
+
+  main{
+    padding: 0;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+}
+
+@media screen and (max-height: 100px){
+
+  nav, header, main{
+    display: none;
+  }
+
+}
