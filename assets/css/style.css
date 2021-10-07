@@ -47,13 +47,13 @@ nav{
   height: 40px;
 }
 
-nav span, nav p{
+nav span, nav ul li{
   color: #5E5E5E;
 
   transition: color 0.3s;
 }
 
-nav span:hover, nav p:hover{
+nav span:hover, nav ul li:hover{
   color: #ffffff;
   cursor: pointer;
 }
@@ -120,12 +120,15 @@ nav span:hover, nav p:hover{
   cursor: pointer;
 }
 
-.playlist-name{
-  min-height: 200px;
-  overflow: auto;  /* da rivedere overflow */
+.playlist-name ul{
+  list-style: none;
+  display: block;
+  height: 110px;
+  overflow: auto;
 }
 
-.playlist-name p{
+.playlist-name li{
+  color: #5E5E5E;
   margin-bottom: 20px;
 }
 
@@ -570,10 +573,17 @@ MD BREAKPOINT
     display: none;
   }
 
+  /* 
+  .album-section{
+    max-height: 325px;
+    overflow: hidden;
+  } 
+  */
+
   .album-box, .artist-box{
     width: calc((100% / 4) - 20px);
   }
-
+  
 }
 
 /*----------------------------
