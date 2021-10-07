@@ -408,6 +408,8 @@ footer{
 .like, .save{
   font-size: 14px;
   margin: 5px;
+
+  transition: color 0.3s;
 }
 
 .like:hover, .save:hover{
@@ -432,11 +434,19 @@ footer{
 .center .top i{
   margin: 0 10px;
   cursor: pointer;
+
+  transition: color 0.5s;
+}
+
+.center .top i:hover{
+  color: limegreen;
 }
 
 .center .top .fa-play-circle{
   font-size: 30px;
   margin: 0 20px;
+
+  transition: font-size 0.5s;
 }
 
 .center .top .fa-play-circle:hover{
@@ -507,6 +517,12 @@ footer{
   color: #ffffff;
   margin-right: 15px;
   cursor: pointer;
+
+  transition: color 0.5s;
+}
+
+.right i:hover{
+  color: limegreen;
 }
 
 .right .trackline-back{
