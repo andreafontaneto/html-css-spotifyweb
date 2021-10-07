@@ -573,11 +573,15 @@ MD BREAKPOINT
     display: none;
   }
 
+  .album-section .album-box:nth-last-child(1),
+  .album-section .album-box:nth-last-child(2){
+    display: none;
+  }
   
-  .album-section{
+  /* .album-section{
     max-height: 325px;
     overflow: hidden;
-  } 
+  }  */
  
 
   .album-box, .artist-box{
