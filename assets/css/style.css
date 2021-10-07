@@ -68,10 +68,10 @@ nav span:hover, nav ul li:hover{
   width: 30px;
   vertical-align: middle;
   margin: 5px;
+  cursor: pointer;
 }
 
 .nav-item .nav-icon, .nav-item span{
-  /* da rivedere il colore delle icone */
   margin-bottom: 10px;
 }
 
@@ -573,12 +573,12 @@ MD BREAKPOINT
     display: none;
   }
 
-  /* 
+  
   .album-section{
     max-height: 325px;
     overflow: hidden;
   } 
-  */
+ 
 
   .album-box, .artist-box{
     width: calc((100% / 4) - 20px);
