@@ -224,6 +224,8 @@ main{
   font-size: 14px;
   color: #5E5E5E;
   margin: 0 15px 20px 15px;
+
+  transition: color 1s;
 }
 
 .label ul li:hover{
@@ -237,6 +239,12 @@ main{
   background-color: limegreen;
   border-radius: 5px;
   margin: 2px auto;
+
+  transition: width 1s;
+}
+
+.label ul li:first-child:hover .line{
+  width: 100%;
 }
 
 /* first section */
