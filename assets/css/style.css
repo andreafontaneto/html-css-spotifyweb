@@ -217,7 +217,7 @@ main{
 .label ul li{
   font-size: 14px;
   color: #5E5E5E;
-  margin: 0 15px;
+  margin: 0 15px 20px 15px;
 }
 
 .label ul li:hover{
